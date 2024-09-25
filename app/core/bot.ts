@@ -14,4 +14,7 @@ import * as command from "../functions/commands";
 	await command.start();
 	await command.sendPhoto();
 	await command.launch();
+	await command.join();
+	await command.create();
+
 })();
